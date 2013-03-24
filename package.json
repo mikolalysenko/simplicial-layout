@@ -1,0 +1,36 @@
+{
+  "name": "simplicial-layout",
+  "version": "0.0.0",
+  "description": "Code for drawing simplicial complexes in arbitrary dimensions.",
+  "main": "layout.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "numeric": "~1.2.6",
+    "simplicial-complex": "~0.3.2"
+  },
+  "devDependencies": {
+    "tap": "~0.4.0"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/simplicial-layout.git"
+  },
+  "keywords": [
+    "simplicial",
+    "complex",
+    "layout",
+    "graph",
+    "drawing",
+    "higher",
+    "dimension"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "0e7b62f0c7e07087602bf8fe2936f2e1765362a4"
+}
