@@ -1,6 +1,6 @@
 {
   "name": "simplicial-layout",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Code for drawing simplicial complexes in arbitrary dimensions.",
   "main": "layout.js",
   "directories": {
