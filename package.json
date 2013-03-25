@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "numeric": "~1.2.6",
-    "simplicial-complex": "~0.3.2"
+    "simplicial-complex": "~0.3.2",
+    "uniq": "~0.0.0"
   },
   "devDependencies": {
     "tap": "~0.4.0"
