@@ -195,7 +195,7 @@ k_loop:
           }
         } else {
           var ds = Math.sqrt(d)
-          var m = crepulse / (ds * (1.0 + Math.exp((4.0-3.0*temperature)*(0.5*repel_radius-ds))))
+          var m = crepulse / (ds * (1.0 + Math.exp((4.0-3.0*this.temperature)*(0.5*repel_radius-ds))))
           for(var l=0; l<dimension; ++l) {
             var f = m * dir[l]
             fa[l] += f
